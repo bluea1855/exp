@@ -1,0 +1,29 @@
+<!-- 4. Create a Zebra Striping a Table and make an image rounded with CSS3. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exp4</title>
+    <style>
+        table { width: 100%; border-collapse: collapse; }
+        th, td { border: 1px solid #ddd; padding: 8px; }
+        tr:nth-child(even) { background-color: black;color:white; }
+        tr:nth-child(odd) { background-color:white; color: black; }
+        .rounded-image { border-radius: 50%; width: 150px; height: 150px;border: 2px solid black;}
+    </style>
+</head>
+<body>
+    <h1>Zebra Striped Table and Rounded Image</h1>
+    <table>
+        <tr><th>Name</th><th>Age</th></tr>
+        <tr><td>Aryan</td><td>19</td></tr>
+        <tr><td>Shivani</td><td>19</td></tr>
+        <tr><td>Roshni</td><td>18</td></tr>
+        <tr><td>Raksha</td><td>17</td></tr>
+        <tr><td>Chaavi</td><td>19</td></tr>
+        <tr><td>Disha</td><td>19</td></tr>
+    </table>
+    <img src="AR.png" alt="Profile Image" class="rounded-image">
+</body>
+</html>

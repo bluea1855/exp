@@ -1,0 +1,144 @@
+<!-- 1. Design a web page to display your CV. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #333;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            color: #333;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .section p, .section ul {
+            margin: 0;
+            padding: 0;
+        }
+        .section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .section ul li {
+            background: #f4f4f4;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #fff;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 0;
+            color: #666;
+        }
+        .social-icons a {
+            text-decoration: none;
+            font-size: 30px;
+            color: rgb(49, 48, 48);
+            margin: 0 10px;
+        }
+        .social-icons a:hover {
+            color: #000000;
+        }
+    </style>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="AR.png" alt="Profile Picture">
+            <div>
+                <h1>Aryan Ingle</h1>
+                <p class="contact-info">Email: aryaningle420@gmail.com | Phone: +91 9131964199 </p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/aryaningle32/" target="_blank"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.linkedin.com/aryan%20ingle/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>B.Tech in Computer Science</strong>, SATI Vidisha, 2023-27</li>
+                <li><strong>12th Grade</strong>, NWP School, 2023</li>
+                <li><strong>10th Grade</strong>, QMS School, 2021</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>Certified Web Developer - Neqo Technologies</li>
+                <li>AWS Certification - Google</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Basic SQL</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Languages Known</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>MArathi</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Aryan Ingle</p>
+    </footer>
+</body>
+</html>
